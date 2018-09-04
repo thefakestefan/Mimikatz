@@ -1,5 +1,7 @@
 # Mimikatz
 
+## Mi.ps1
+
 Mi.ps1 is a modified version of Mimikatz which is available at https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1
 
 I downloaded the file an modified it with the following commands:
@@ -21,3 +23,7 @@ mv Invoke-Mimikatz.ps1 Mi.ps1
 </pre>
 
 This will change the bahivor of most AV scanners. The file will be no longer detected as maleware, but the execution will be still blocked when the code sucked in.
+
+## MiLoading.ps1
+
+Is a single command that can be run on powershell. It will pull a file from the internet containing Mimikatz and will execute it. The results will be printed into a txt file which will be opened by notepad. The commands was created by the Invoke-CradleCrafter (https://github.com/danielbohannon/Invoke-CradleCrafter).
